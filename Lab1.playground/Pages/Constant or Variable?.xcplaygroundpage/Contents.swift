@@ -12,7 +12,15 @@
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
 
-
+let name : String = "David"
+print("This variable is a constant since names do not change")
+var age : String = "21"
+print("The age changes, so it is not a constant")
+var steps_taken : Int = 0
+print("The number of steps changes for each day")
+var goal_steps_taken : Int = 0
+print("The average heart rate is not constant, since it changes every 24 hours")
+var avg_heart_rate : Int = 0 
 
 
 

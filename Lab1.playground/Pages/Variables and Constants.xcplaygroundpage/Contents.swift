@@ -86,25 +86,21 @@ let Upcomingappversion = 1.1
 // Write your variables to describe the questions above here.
 
 
-
 // 1) Define a variable to hold the number of cars parked in a parking lot, there 4 cars parked at the moment.
 
-
-
+var cars_for_day : Int = 0
 
 // 2) Define variable that holds the number of units in a building on Market St. There 12 units in the building.
 
-
-
+let apartment_units : Int = 0
 
 // 3) Define a variable that will hold the high score in a game. The current value is 5000.
 
-
+var high_score : Int = 0
 
 // 4) Define a variable that holds the number of letters in the alphabet.
 
-
-
+let num_of_letters : Int = 27
 //: [Next](@next)
 
 

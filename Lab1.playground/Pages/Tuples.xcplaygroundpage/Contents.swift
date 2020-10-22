@@ -59,9 +59,13 @@ let yCoord = coordinate.y
 
 import Foundation // you need Foundation imported for the sqrt() function
 
+var us = (value: 10, type:"usd")
+var ca = (value: 20, type:"ca")
 
+var result = "\(us.0) \(us.1) is \(ca.0) \(ca.1)"
+var anotherResult = "\(us.value) \(us.type) is \(ca.type) \(ca.type)"
 
-
+print(anotherResult)
 
 
 
