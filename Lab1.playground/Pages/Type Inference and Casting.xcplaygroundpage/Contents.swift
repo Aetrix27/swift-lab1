@@ -102,9 +102,15 @@ let radians: Double = Double(angleInDegrees)  * pi / 180.0;
  
  */
 
-
-
 // Write a definition for each variable followed by it's type (don't forget the colon!) below.
+var username : String = ""
+var password : String = ""
+var shoeSize : Int = 10
+var gender : String = "M, F, O(ther), N(ot specified)"
+var olderThan18 : Bool = true
+var peopleInParty: Int = 10
+
+
 
 
 
