@@ -91,10 +91,28 @@ resize2(fromWidth: 20, fromHeight: 30, toWidth: 100, toHeight: 400)
  */
 // Write your challenge code here:
 
+var numArr: [Int] = [3,4,5]
 
+func calcArea(width: Int, height: Int) -> Int {
+    var area : Int = 0
+    area = width * height
+    
+    return area
+    
+}
+print(calcArea(width: 2, height : 3))
 
+func calcPerimeter(nums : [Int]) -> Int {
+    var perimeter : Int = 0
+    for num in nums{
+        perimeter += num
+    }
+    
+    return perimeter
+    
+}
 
-
+print(calcPerimeter(nums: numArr))
 
 
 
