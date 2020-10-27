@@ -67,10 +67,10 @@ var distance = sqrt((expression_x)*(expression_x) + (expression_y)*(expression_y
 print(distance)
 
 var us = (value: 10, type:"usd")
-var ca = (value: 20, type:"ca")
+var cad = (value: 20, type:"cad")
 
-var result = "\(us.0) \(us.1) is \(ca.0) \(ca.1)"
-var anotherResult = "\(us.value) \(us.type) is \(ca.value) \(ca.type)"
+var result = "\(us.0) \(us.1) is \(cad.0) \(cad.1)"
+var anotherResult = "\(us.value) \(us.type) is \(cad.value) \(cad.type)"
 
 print(result)
 print(anotherResult)

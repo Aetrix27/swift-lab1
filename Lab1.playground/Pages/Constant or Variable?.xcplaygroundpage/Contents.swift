@@ -13,14 +13,19 @@
  */
 
 let name : String = "David"
-print("This variable is a constant since names do not change")
+print("This is a constant since names do not change.")
+
 var age : String = "21"
-print("The age changes, so it is not a constant")
+print("The age changes, so it is a variable.")
+
 var steps_taken : Int = 0
-print("The number of steps changes for each day")
+print("The number of steps taken changes everyday, so it is a variable.")
+
 var goal_steps_taken : Int = 0
-print("The average heart rate is not constant, since it changes every 24 hours")
-var avg_heart_rate : Int = 0 
+print("The goal number of steps should remain the same, so it is a constant.")
+
+var avg_heart_rate : Int = 0
+print("The average heart rate is a variable not a constant, since it changes every 24 hours")
 
 
 

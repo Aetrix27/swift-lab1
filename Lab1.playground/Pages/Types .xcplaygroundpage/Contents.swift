@@ -15,6 +15,6 @@ print("It does not compile because an integer cannot be set to a boolean since t
 /*:
  Finally, declare a variable with a whole number value. Then try to assign it to `firstDecimal`. Why won't this compile even though both variables are numbers? Print a statement to the console explaining why not, and remove the line of code that will not compile.
  */
-firstDecimal = 51
-
+var num : Int = 51
+print("It won't compile because an integer is not the same as a double, it must be a double (decimal)")
 //: [Previous](@previous)  [Next](@next)
